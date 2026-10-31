@@ -61,11 +61,13 @@
     "domain:anthropic.com"
   ],
   "ProxyIp": [
-    "geoip:telegram"
+    "geoip:telegram",
+    "geoip:ru-blocked"
   ],
   "BlockSites": [],
   "BlockIp": [],
-  "DomainStrategy": "AsIs",
+  "DomainStrategy": "IPIfNonMatch",
   "FakeDNS": "false",
-  "useChunkFiles": false
+  "useChunkFiles": false,
+  "LastUpdated": "1793494800"
 }

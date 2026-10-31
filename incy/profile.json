@@ -60,7 +60,9 @@
     "domain:claude.ai",
     "domain:anthropic.com"
   ],
-  "ProxyIp": [],
+  "ProxyIp": [
+    "geoip:telegram"
+  ],
   "BlockSites": [],
   "BlockIp": [],
   "DomainStrategy": "AsIs",

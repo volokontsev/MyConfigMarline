@@ -1,7 +1,6 @@
 {
   "Name": "Smart Direct Auto (RunetFreedom)",
   "GlobalProxy": "false",
-  "RouteOrder": "direct-proxy-block",
   "RemoteDNSType": "DoH",
   "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
   "RemoteDNSIP": "1.1.1.1",
